@@ -1,0 +1,165 @@
+/* NAVBAR
+-------------------------------------------------- */
+
+.navbar {
+  margin-bottom: 0;
+}
+
+/* CUSTOMIZED CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 270px;
+  margin-bottom: 0px;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+.carousel-caption .fa {
+  display: inline-block;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 260px;
+  background-color: #13547a;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 240px;
+}
+
+@media (min-width: 768px) {
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 30px;
+    font-size: 21px;
+    line-height: 1.4;
+    display: inline-block;
+  }
+
+}
+
+/* MARKETING
+-------------------------------------------------- */
+
+.marketing {
+  margin: 10px auto;
+  margin-top: -0;
+}
+
+.marketing .col-md-6 .glyphicon {
+  font-size: 40px;
+  background-color: #13547a;
+  border-radius: 50%;
+  padding: 40px;
+  color: #444;
+}
+
+.pro-passies-block h1 {
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.passie-block p {
+ margin-bottom: 40px;
+ font-size: 20px;
+}
+
+.passie-block {
+  margin-top: 100px;
+}
+
+.fa-10x {
+  font-size: 110px;
+  padding-top: 0px;
+}
+
+.button-div {
+  text-align: center;
+  padding-top: 210px;
+  padding-bottom: 40px;
+}
+
+/* Image
+-------------------------------------------------- */
+
+.img-fluid-yes {
+  padding-top: 0px;
+}
+
+
+/* Button 
+-------------------------------------------------- */
+
+.btn {
+  font-size: 20px;
+  background: none;
+  padding: 12px 30px;
+
+}
+
+.btn-outline-primary {
+  border: 2px solid #13547a;
+  color: #13547a;
+}
+
+.btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active, .btn-outline-primary.active, .open > .dropdown-toggle.btn-outline-primary {
+  color: #ffffff;
+  border-color: #13547a;
+  background: #13547a;
+}
+
+.btn-outline-primary:active, .btn-outline-primary.active {
+  border-color: #13547a;
+  color: #13547a;
+  box-shadow: none;
+}
+
+
+/* STICKY FOOTER
+-------------------------------------------------- */
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 160px;
+}
+
+.footer,
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 160px;
+  background: #13547a;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  padding: 40px 0;
+}
+
+.email-link {
+  color: grey;
+  text-shadow: white;
+}
+
+.email-link:hover {
+  color: white;
+  font-weight: bold;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
